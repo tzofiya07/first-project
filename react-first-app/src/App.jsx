@@ -1,9 +1,17 @@
 import './App.css'
+import Main from "./components/Main"
+import NewComp from './components/NewComp'
 
 function App() {
 
   return (
-    <div>hello world</div>
+    <div className='app'>
+       <Main/>
+       <Main/>
+       <NewComp/>
+
+       
+    </div>
   )
 }
 
